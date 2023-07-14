@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.wrapper {
+  padding-top: 50px;
+  height: 100vh;
+  width: 90%;
+}
+
+.wr_inputs,
+.wr_outputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wr_inputs {
+  width: 100%;
+}
+
+.wr_selects {
+  width: 49%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#wr_results {
+  display: flex;
+  justify-content: space-between;
+}
+#wr_results_transport, #wr_results_production {
+  width: 49%;
+}
+
+#NGRPathway1, #NGRPathway2, #NGRPathway3, #NGRPathway4, #LTEPathway1, #LTEPathway2, #LTEPathway3, #LTEPathway4,
+#HTEPathway1, #HTEPathway2, #HTEPathway3, #HTEPathway4, #transport1, #transport2, #transport3, #transport4 {
+  width: 49%;
+}
+
+#inputs {
+  width: 50%!important;
+  display: flex;
+  justify-content: space-between;
+}
